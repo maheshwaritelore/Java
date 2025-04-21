@@ -31,7 +31,6 @@ class LL4 {
             curr = curr.next;
         }
 
-        
         if (n == size) {
             return head.next;
         }
