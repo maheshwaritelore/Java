@@ -1,4 +1,5 @@
-//count total paths in a maze to move from(0,0)to(n,m)
+//count total paths in a maze to move from(0,0) to (n,m)
+
 public class Recursion2{
     public static int  countPaths(int i, int j,int n ,int m){
         if(i==n || j==n){

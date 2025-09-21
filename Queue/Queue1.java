@@ -22,9 +22,10 @@ public class Queue1{
             rear++;
             arr[rear] = add;
         }
-        //dequeue
+        //dequeue O(1)
         public static int remove(){
             if(isEmpty()){
+                System.out.println("empty queue");
                 return -1;
             }
             int front=arr[0];
@@ -32,7 +33,7 @@ public class Queue1{
                 arr[i]=arr[i+1];
             }
             rear--;
-            System.out.println("empty queue");
+                
             return front;
         }
 
@@ -56,6 +57,7 @@ public class Queue1{
         }
     }
 }
+
 /*
 1
 2
